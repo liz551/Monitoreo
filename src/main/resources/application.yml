@@ -1,0 +1,23 @@
+spring:
+    datasource:
+        password: admin
+        url: jdbc:mysql://localhost:3306/tp2
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                format_sql: true
+                show_sql: true
+    mail:
+        host: smtp.gmail.com
+        username: leyva.calle1403@gmail.com
+        password: zxfjbrchgptmsblb
+        port: 587
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    starttls:
+                        enable: true
